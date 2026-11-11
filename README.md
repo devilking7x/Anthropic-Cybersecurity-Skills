@@ -386,6 +386,17 @@ All platforms that support the [agentskills.io](https://agentskills.io) standard
 
 Skills have continued to grow on `main` since v1.0.0 — the library now contains **818 skills** with **6-framework mapping**  (MITRE ATLAS, D3FEND, NIST AI RMF, and the MITRE Fight Fraud Framework added post-release).  Check [Releases](https://github.com/mukul975/Anthropic-Cybersecurity-Skills/releases) for the latest tagged version.
 
+## What's new in this fork — Raza7x Advanced
+
+This fork ([devilking7x/Anthropic-Cybersecurity-Skills](https://github.com/devilking7x/Anthropic-Cybersecurity-Skills)) adds 4 new skills by Mohd Raja (Raza7x), taking the library from **818 to 822 skills** across the same **34 security domains** and **6 framework mappings**:
+
+- `bug-bounty-hunting` — end-to-end bounty hunting: scope gate, five-source duplicate check, runnable PoC, honest CVSS, triage-proof reports.
+- `secret-management` — full secret lifecycle: inventory, vault storage, `.env` hygiene, leak scanning, rotation, and leaked-secret incident response.
+- `incident-response` — running an incident end to end: declaration, triage, containment, eradication, recovery, and blameless postmortem.
+- `supply-chain-security` — dependency-to-artifact supply chain: lockfiles, SBOMs, SLSA/Sigstore provenance, and malicious-dependency response.
+
+A fifth candidate, `api-security-audit`, was intentionally **not** added: it duplicates the existing `conducting-api-security-testing` skill (same OWASP API Top 10 ground, JWT/BOLA/BFLA/mass-assignment coverage), so per CONTRIBUTING it belongs as an extension of that skill instead.
+
 ## Contributing
 
 This project grows through community contributions. Here is how to get involved:
